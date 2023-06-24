@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+    .w3-row-padding img {margin-bottom: 12px}
+    /* Set the width of the sidebar to 120px */
+    .w3-sidebar {width: 120px;background: #222;}
+    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+    #main {margin-left: 120px}
+    /* Remove margins from "page content" on small screens */
+    @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+    </style>
+  </head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="ShankarPeketi.jpeg" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Shankar.</h1>
+    <p>AEM Developer </p>
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Peketi Shankar Pattabhi Ram</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>I'm an AEM developer with 3.5 years of experience currently working with Deloitte. I'm ex EY employye and Mindtree mind. Developed web-based applications using Adobe CQ5/AEM, Java, Sightly, HTML, JQuery andMaven etc., Worked in end-to-end business requirement gathering, designing, development and deployments. Experience with Agile/Scrum practice. Handled multiple client calls and delivered projects on time. Hands-on experience with Sightly (HTL), OSGI, Sling, JCR and CoralUI/TouchUI framework. Migration from 6.5 to AEM as cloud.
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">Adobe Experience Manager</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div>
+    <p class="w3-wide">Java</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">HTML/CSS/Jquery</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div><br>
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <a href ="Shankar_Peketi_Resume.pdf" attributes-list download><i class="fa fa-download"></i></a> Download Resume
+    </button>
+    
+    <!-- Grid for pricing tables -->
+    <h3 class="w3-padding-16 w3-text-light-grey">Work History & Professional Project Experience</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">EY (Ernst &Young)</li>
+          <li class="w3-padding-16"><b>Client</b> - UHG</li>
+          <li class="w3-padding-16"><b>Modules</b> - UHOne, Ecosystem, OPTUM</li>
+          <li class="w3-padding-16"><b>Duration</b> - June 2022 to May 2023.</li>
+          <li class="w3-padding-16"><b>Tools</b> - AEMasCS, GitHub, Postman, Maven</li>
+      
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">MINDTREE</li>
+          <li class="w3-padding-16"><b>Client</b> - REALOGY</li>
+          <li class="w3-padding-16"><b>Modules</b> - MYCORCORAN, ECORCORAN</li>
+          <li class="w3-padding-16"><b>Duration</b> - Jan 2020 to June 2022.</li>
+          <li class="w3-padding-16"><b>Tools</b> - AEM 6.5, GitHub, Postman, fiddler</li>
+        </ul>
+      </div>
+    <!-- End Grid/Pricing tables -->
+    </div>
+    
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24 w3-text-light-grey">EDUCATION</h3>  
+    <img src="GIET.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Graduation (B.Tech, ECE).</span> GODAVARI INSTITUTE OF ENGINEERING AND TECHNOLOGY (GIET).</p>
+    <p>Rajahmundry, Andhra Pradesh 2015 – 2019.</p><br>
+    
+    <img src="chaitanya.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Intermediate.</span> Sri Chaitanya Junior College.</p>
+    <p>Rajahmundry, Andhra Pradesh: 2013 – 2015.</p><br>
+
+    <img src="skvt.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">S.S.C </span> S.K.V.T [E.M] High School.</p>
+    <p>Rajahmundry, Andhra Pradesh.</p>
+  <!-- End About Section -->
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Photos</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="./20211207165604_IMG_2104-01-min.jpeg" style="width:100%">
+        <img src="./IMG_20220108_203402-min.jpg" style="width:100%">
+        <img src="./IMG20220725074820-01-01-min.jpeg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="./IMG_20220821_175648-01-01-min.jpeg" style="width:100%">
+        <img src="./IMG_20230624_175851-min.jpg" style="width:100%">
+        <img src="./IMG_20230624_175931-min.jpg" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Hyderabad, Telangana</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +91 9100288271</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: shankarpattabhirampeketi.com</p>
+    </div><br>
+    <p>Let's get in touch. Send me a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+  
+<!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+<footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+  
+  <a class="icon-facebook" href="https://www.facebook.com/shankar.peketi.3?mibextid=ZbWKwL" title="facebook"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+  <a class="icon-facebook" href="https://instagram.com/___smart_____?igshid=MzNlNGNkZWQ4Mg==" title="instagram"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+  <a class="icon-facebook" href="https://twitter.com/_smart____?t=KEtNQ_m9qVU83Wn8lUmQcA&s=09" title="twitter"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+  <a class="icon-facebook" href="https://www.linkedin.com/in/shankar-peketi-1b95aa181" title="linkedin"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+ 
+ <!-- End footer -->
+</footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+<script src="/843d47f7c84772a92fdb60537088a1ef98aceac9050dde45432c58389e014d14/ns.js"></script><script src="/d3e102b0f5123172c24210c54b2ebef7f99e44415117f563482180642a4ceee4/ns.js"></script><script src="/701bf00bbed1380a582e956e78a2b92ecd710a4c1e11d62aaf0559c3faf8b963/ns.js"></script></body>
+</html>
